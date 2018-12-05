@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/move_background.jpeg');
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    position: relative;
+    background-color: whitesmoke;
+    top: 30px;
+    width: 960px;
+    text-align: center;
+    overflow: auto;
+    margin: auto;
+}
+
+.btn {
+    padding: 10px;
+    width: 100px;
+    border: 20px;
+}
