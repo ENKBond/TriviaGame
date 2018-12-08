@@ -6,7 +6,7 @@ var allQuestions = [{
     question: "Who directed the award-winning film The Piano?",
     choices: ["Jane Campion", "Ron Howard", "Spike Lee", "Ridley Scott"],
     correctAnswer: "Jane Campion",
-    image: "assets/images/the_piano.jpg",
+    image: "assets/images/200px-The-piano-poster.jpg",
 },
 {
     question: "Which original cast member has a cameo in the 2009 Star Trek film?",
@@ -30,7 +30,7 @@ var allQuestions = [{
     question: "Which of these was not one of the Marx brothers?",
     choices: ["Chico", "Freddo", "Harpo", "Zeppo"],
     correctAnswer: "Freddo",
-    image: "assets/images/marx_brothers.jpg",
+    image: "assets/images/Marx_Brothers_1931.jpg",
 },
 {
     question: "The Kindergarten Cop title character was played by whom?",
@@ -48,7 +48,7 @@ var allQuestions = [{
     question: "Which film links the actors Ralph Fiennes, Bill Murray, and Adrien Brody?",
     choices: ["Argo", "The Wrestler", "The Grand Budapest Hotel", "Stripes"],
     correctAnswer: "The Grand Budapest Hotel",
-    image: "assets/images/grand-budapest-hotel.jpg",
+    image: "assets/images/The_Grand_Budapest_Hotel.jpg",
 },
 {
     question: "In which year was Jaws released?",
