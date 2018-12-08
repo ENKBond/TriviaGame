@@ -104,6 +104,7 @@ function selectQuestion() {
         $("#answerBlock").append(listOfChoices);
         listOfChoices.addClass("choices");
         listOfChoices.attr("data-name", allQuestions[i].choices[j]);
+        listOfChoices.addClass("btn btn-outline-info btn-sm");
 
     }
 
@@ -158,6 +159,7 @@ function wrongGuess() {
     $("#answerBlock").empty();
     wrongCount++;
     $("#answerBlock").append("Not quite. The correct answer is: " + allQuestions[i].correctAnswer).append("<br><img src='"+allQuestions[i].image+"' alt='Not Found'>");
+
     nextSteps();
 }
 
@@ -167,6 +169,7 @@ function timeUp() {
     $("#answerBlock").empty();
     unanswerCount++;
     $("#answerBlock").append("If you HAD made a guess, you probably would have picked: " + allQuestions[i].correctAnswer).append("<br><img src='"+allQuestions[i].image+"' alt='Not Found'>");
+
     nextSteps();
 }
 
